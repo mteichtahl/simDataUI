@@ -1,0 +1,42 @@
+.body {
+
+}
+
+.container {
+    background-color: white;
+} 
+
+/** make the brand logo an image **/
+.brand-logo {
+    background-image: url("../images/awsLogo.jpg") no-repeat;
+}
+
+/** padd the AWS logo in the top heading bar 5px **/
+.brand-logo img {
+    padding-left: 5px;
+}
+
+/** use AWS "grey" as the background color **/
+.nav-wrapper {
+    background-color: rgb(32,41,60)
+}
+
+/** data element text in main metric boxes **/
+.dataElement {
+    color: orange;
+}
+
+#timeStamp {
+    margin-top:-20px;
+    margin-bottom: -22px;
+}
+
+#locationMap {
+    height: 285px;
+    position: relative;
+    top :0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
