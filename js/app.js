@@ -1,4 +1,4 @@
-const API_URL = 'https://htmak2vssk.execute-api.ap-southeast-2.amazonaws.com/v1/data'
+const API_URL = '<INSERT_API_GATEWAY_URL_HERE>'
 
 const MAX_HISTORY = 60
 const FREQ = 1
