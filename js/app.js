@@ -1,4 +1,4 @@
-const API_URL = 'https://3gaki15y76.execute-api.ap-southeast-2.amazonaws.com/v1'
+const API_URL = 'https://htmak2vssk.execute-api.ap-southeast-2.amazonaws.com/v1/data'
 
 const MAX_HISTORY = 60
 const FREQ = 1
@@ -23,9 +23,10 @@ var dataHistory =
 
     function getData(cb) {
       $.ajax({
-        url: API_URL + '/data/',
+        url: API_URL,
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
+        cors: true,
         success: function(data) {
           var heading = parseFloat(data.Item.heading.S).toFixed(2);
           var airspeed = parseFloat(data.Item.airspeed.S).toFixed(2);
